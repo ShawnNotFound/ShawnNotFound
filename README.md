@@ -2,6 +2,7 @@
 
 ![Shawn's GitHub stats](https://github-readme-stats-seven-psi-74.vercel.app/api?username=ShawnNotFound&count_private=true)
 
+![Top Langs](https://github-readme-stats-seven-psi-74.vercel.app/api/top-langs/?username=ShawnNotFound&layout=compact&count_private=true)
 <!--
 **ShawnNotFound/ShawnNotFound** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
