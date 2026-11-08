@@ -1,33 +1,56 @@
-### Hi, I'm Shawn (Shuaijie Shao)
+<a href="https://shawn404.top">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img src="assets/banner-light.svg" width="100%" alt="Shuaijie Shao, Computer Science at UCL. I study what AI models hear and what they know, and build open-source tools for running LLMs. Visit shawn404.top">
+  </picture>
+</a>
 
-Second-year Computer Science student at UCL. I work on speech and audio AI: deepfake speech detection, spotting depression in spoken language, and how large language models represent real-world knowledge.
+<p>
+  <a href="https://shawn404.top"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-website-dark.svg"><img src="assets/link-website-light.svg" height="40" alt="Website: shawn404.top"></picture></a>
+  <a href="https://scholar.google.com/citations?user=tSuc7DkAAAAJ"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-scholar-dark.svg"><img src="assets/link-scholar-light.svg" height="40" alt="Google Scholar"></picture></a>
+  <a href="https://www.linkedin.com/in/shuaijie-shao"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-linkedin-dark.svg"><img src="assets/link-linkedin-light.svg" height="40" alt="LinkedIn"></picture></a>
+  <a href="https://www.kaggle.com/shawn404"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-kaggle-dark.svg"><img src="assets/link-kaggle-light.svg" height="40" alt="Kaggle"></picture></a>
+</p>
 
-Looking for Summer 2027 internships.
+Hi, I'm Shawn (Shuaijie Shao), a second-year Computer Science student at UCL. I work on speech and audio AI and on how language models represent the world, and I build tools for running LLMs. I'm looking for **Summer 2027 internships**.
 
-Find out more about myself at my website: 
-[![Website](https://img.shields.io/badge/website-shawn404.top-blue?style=flat-square)](https://shawn404.top)
+## Research
 
-**Publications**
+- **IJCNN 2026** · [*Enhancing Efficiency and Performance in Deepfake Audio Detection through Neuron-level Dropin & Neuroplasticity Mechanisms*](https://arxiv.org/abs/2603.24343) · co-first author · [code](https://github.com/ShawnNotFound/Dropin)
+- **Frontiers in Computer Science 2025** · [*Large Language Models for Depression Recognition in Spoken Language Integrating Psychological Knowledge*](https://doi.org/10.3389/fcomp.2025.1629725) · co-first author · [code](https://github.com/myxp-lyp/Depression-detection)
+- Two earlier sole-author papers are on [Google Scholar](https://scholar.google.com/citations?user=tSuc7DkAAAAJ). Research in progress: reinforcement learning and AI applications.
 
-- *Enhancing Efficiency and Performance in Deepfake Audio Detection through Neuron-level Dropin & Neuroplasticity Mechanisms*, IJCNN 2026 · [arXiv](https://arxiv.org/abs/2603.24343) · [code](https://github.com/ShawnNotFound/Dropin)
-- *Large Language Models for Depression Recognition in Spoken Language Integrating Psychological Knowledge*, Frontiers in Computer Science, 2025 · [paper](https://doi.org/10.3389/fcomp.2025.1629725) · [code](https://github.com/myxp-lyp/Depression-detection)
-- and more publications before& in the future......
+## Building
 
-**Projects**
+- [**kvplan**](https://github.com/ShawnNotFound/kvplan) · Will a vLLM deployment start on your GPU, and how many requests fit? It reads the model's files from Hugging Face without downloading the weights. `pip install kvplan`
+- [**whatfills**](https://github.com/ShawnNotFound/whatfills) · Explains why a disk is full, cause by cause, and prints the command that frees the space.
+- [**DayQuest**](https://github.com/w3joe/dayquest) · Turns your day into a pixel world that someone far away can walk around. A team hackathon project.
+- [**Dropin**](https://github.com/ShawnNotFound/Dropin) · Code for the IJCNN 2026 paper, on ResNet, gated RNN and Wav2Vec 2.0 backbones.
+- [**WeChat Emoji System**](https://github.com/ShawnNotFound/ShawnNotFound-s-Wechat-Emoji-System) · A small Windows tool for sending WeChat emoji faster.
 
-- [Dropin](https://github.com/ShawnNotFound/Dropin): experiments for neuron-level Dropin on ASVspoof 2019 and FoR, with ResNet, GRNN and Wav2Vec 2.0 (Python, PyTorch)
-- [WeChat Emoji System](https://github.com/ShawnNotFound/ShawnNotFound-s-Wechat-Emoji-System): a small Windows tool for sending emoji in WeChat faster (C++)
-- Hackathon Projects: Many hackathon projects including multi-agent workflow, using AI reconstruct gamified day, agentic system as coworker. 
+Also built at hackathons: a multi-agent workflow visualiser (Great Agent Hack 2025) and an agentic co-worker (Agentverse 2025).
 
-**Open source**
+## Open-source fixes
 
-- [WhatFills](https://github.com/ShawnNotFound/whatfills): A multi-platform tool to analyze disk usage and suggest clean up tactics
-- [kvplan](https://github.com/ShawnNotFound/kvplan): A commandline tool to plan vLLM deployments with/without the GPU, and find the most suitable model before downloading any.
-- [opencv/opencv#30597](https://github.com/opencv/opencv/pull/30597): fix a Python crash when creating stitching ImageFeatures objects
-- [apache/tvm-tirx#127](https://github.com/apache/tvm-tirx/pull/127): fix a divide-by-zero in iter map detection for predicates whose terms cancel
-- and many other bugfix or tools......
+<!-- oss:start -->
+| Status | Pull request | What it fixes |
+| :-- | :-- | :-- |
+| **Merged** | [apache/tvm-tirx#191](https://github.com/apache/tvm-tirx/pull/191) | Drop cancelled iterator-map splits before fusion (co-author) |
+| **Merged** | [zarr-developers/zarr-python#4595](https://github.com/zarr-developers/zarr-python/pull/4595) | Allow Ellipsis after an index array in orthogonal selection |
+| **Merged** | [fmtlib/fmt#5010](https://github.com/fmtlib/fmt/pull/5010) | Fix precision formatting of long double values just below a power of 10 |
+| In review | [microsoft/onnxscript#3169](https://github.com/microsoft/onnxscript/pull/3169) | Implement fmax, fmin and hypot |
+| In review | [plotly/plotly.py#5868](https://github.com/plotly/plotly.py/pull/5868) | Accept CSS color formats supported by plotly.js in the color validator |
+| In review | [microsoft/onnxscript#3152](https://github.com/microsoft/onnxscript/pull/3152) | Fix atan2 for signed zeros, infinities and NaN inputs |
+| In review | [apache/tvm#20859](https://github.com/apache/tvm/pull/20859) | Handle negative indices in the select converter |
+| In review | [h5py/h5py#3014](https://github.com/h5py/h5py/pull/3014) | Allow uint64 enum member values of 2**63 and above |
+| In review | [opencv/opencv#30597](https://github.com/opencv/opencv/pull/30597) | Wrap default constructors of ImageFeatures, MatchesInfo and CameraParams |
+<!-- oss:end -->
 
-<!-- <p>
-  <img src="https://github-readme-stats-seven-psi-74.vercel.app/api?username=ShawnNotFound&count_private=true&hide_border=true" alt="Shawn's GitHub stats" height="165">
-  <img src="https://github-readme-stats-seven-psi-74.vercel.app/api/top-langs/?username=ShawnNotFound&layout=compact&count_private=true&hide_border=true" alt="Top languages" height="165">
-</p> -->
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+  <img src="assets/activity-light.svg" width="100%" alt="My GitHub activity over the last 12 months">
+</picture>
+
+<sub>The cards and the fixes table are generated by <a href="widgets/build.py">widgets/build.py</a> and refreshed every day by a GitHub Action.</sub>

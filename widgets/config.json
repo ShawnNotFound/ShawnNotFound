@@ -1,0 +1,24 @@
+{
+  "login": "ShawnNotFound",
+  "banner": {
+    "status": "Open to Summer 2027 internships",
+    "first": "Shuaijie",
+    "last": "Shao",
+    "meta": "Computer Science @ UCL  ·  London",
+    "lede": ["I study what AI models hear and what they know,", "and build open-source tools for running LLMs."],
+    "site": "shawn404.top",
+    "chips": [["IJCNN", "2026"], ["Frontiers", "2025"], ["Kaggle", "Expert"], ["USACO", "Platinum"]]
+  },
+  "links": [
+    {"id": "website", "label": "shawn404.top", "icon": "globe"},
+    {"id": "scholar", "label": "Google Scholar", "icon": "cap"},
+    {"id": "linkedin", "label": "LinkedIn", "icon": "case"},
+    {"id": "kaggle", "label": "Kaggle", "icon": "medal"}
+  ],
+  "oss": {
+    "since": "2026-10-01",
+    "show_closed": false,
+    "hide": ["apache/tvm-tirx#127"],
+    "extra": [{"repo": "apache/tvm-tirx", "number": 191, "note": "co-author"}]
+  }
+}
