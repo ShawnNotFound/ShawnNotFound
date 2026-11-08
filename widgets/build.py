@@ -66,7 +66,7 @@ FACES = {
 
 def font_face_css(key, chars):
     face = FACES[key]
-    font = TTFont(face.path)
+    font = TTFont(face.path, recalcTimestamp=False)  # same bytes every run, so unchanged images are not recommitted
     opts = subset.Options()
     opts.flavor = "woff"
     opts.name_IDs = ["*"]  # keeps the copyright and OFL licence fields inside the font
