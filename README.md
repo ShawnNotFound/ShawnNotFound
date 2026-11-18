@@ -39,9 +39,7 @@ Also built at hackathons: a multi-agent workflow visualiser (Great Agent Hack 20
 | **Merged** | [zarr-developers/zarr-python#4595](https://github.com/zarr-developers/zarr-python/pull/4595) | Allow Ellipsis after an index array in orthogonal selection |
 | **Merged** | [fmtlib/fmt#5010](https://github.com/fmtlib/fmt/pull/5010) | Fix precision formatting of long double values just below a power of 10 |
 | **Merged** | [opencv/opencv#30597](https://github.com/opencv/opencv/pull/30597) | Wrap default constructors of ImageFeatures, MatchesInfo and CameraParams |
-| In review | [microsoft/onnxscript#3169](https://github.com/microsoft/onnxscript/pull/3169) | Implement fmax, fmin and hypot |
 | In review | [plotly/plotly.py#5868](https://github.com/plotly/plotly.py/pull/5868) | Accept CSS color formats supported by plotly.js in the color validator |
-| In review | [microsoft/onnxscript#3152](https://github.com/microsoft/onnxscript/pull/3152) | Fix atan2 for signed zeros, infinities and NaN inputs |
 | In review | [apache/tvm#20859](https://github.com/apache/tvm/pull/20859) | Handle negative indices in the select converter |
 | In review | [h5py/h5py#3014](https://github.com/h5py/h5py/pull/3014) | Allow uint64 enum member values of 2**63 and above |
 <!-- oss:end -->
